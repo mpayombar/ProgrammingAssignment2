@@ -1,3 +1,5 @@
+## This function takes a Matrix and returns Inverse of the Matrix 
+## This function creates a special "matrix" object that can cache its inverse. 
 makeCachevMatrix <- function(x = matrix()) {
   inv = NULL
   set = function(y) {
